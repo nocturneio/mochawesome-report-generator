@@ -27,8 +27,8 @@
   border-radius: 50%;
   width: 42px;
   height: 42px;
-  border: 0.25rem solid var(--gray-medium);
-  border-top-color: var(--gray);
+  border: 0.25rem solid #b9c1ec;
+  border-top-color: #8a72ec;
   animation: spin 1s infinite linear;
 }
 

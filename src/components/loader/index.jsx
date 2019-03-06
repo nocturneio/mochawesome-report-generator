@@ -18,7 +18,7 @@ class Loader extends Component {
       <div className={ cx('component') }>
         <div className={ cx('wrap') }>
           <div className={ cx('spinner') } />
-          <h4 className={ cx('text') }>Generating Report</h4>
+          <h4 className={ cx('text') }>Chargement...</h4>
         </div>
       </div>
     );

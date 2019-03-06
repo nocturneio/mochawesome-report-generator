@@ -21,14 +21,14 @@ const Navbar = ({ onMenuClick, reportTitle, stats }) => {
   );
 
   return (
-    <div className={ cx('component', 'z-depth-1') } role='navigation'>
+    <div className={ cx('component') } role='navigation'>
       <div className={ cx('report-info-cnt') }>
         <button
           onClick={ onMenuClick }
           className={ cx('menu-button', 'open-menu') }>
           <Icon name='menu' />
         </button>
-        <h1 className={ cx('report-title') } title={ reportTitle }>{ reportTitle }</h1>
+        <h1 className={ cx('report-title') } title={ reportTitle }>NocturneLab - API</h1>
       </div>
       <div className={ cx('stats') }>
         <QuickSummary stats={ stats } />

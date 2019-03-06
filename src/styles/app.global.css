@@ -3,33 +3,7 @@
 @import 'type';
 @import '../../node_modules/highlight.js/styles/solarized-light';
 @import '../../node_modules/chartist/dist/chartist';
-
-@font-face {
-  font-family: 'robotolight';
-  src:
-    url('../fonts/roboto-light-webfont.woff2') format('woff2'),
-    url('../fonts/roboto-light-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'robotomedium';
-  src:
-    url('../fonts/roboto-medium-webfont.woff2') format('woff2'),
-    url('../fonts/roboto-medium-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'robotoregular';
-  src:
-    url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-    url('../fonts/roboto-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Product+Sans:300,400,600,700,800');
 
 @font-face {
   font-family: 'Material Icons';
@@ -99,7 +73,7 @@ body {
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
   color: var(--text-color);
-  background-color: var(--body-bg);
+  background-color: white;
   margin-bottom: var(--footer-height);
 }
 

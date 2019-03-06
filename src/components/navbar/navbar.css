@@ -14,7 +14,7 @@
   height: var(--navbar-height);
   margin-bottom: 0;
   border: none;
-  background: var(--bluegrey800);
+  background: #8a72ec;
 }
 
 .report-info-cnt {
@@ -40,6 +40,7 @@
 
   flex-grow: 1;
   color: #fff;
+  font-weight: bolder;
   font-size: 18px;
   line-height: calc(var(--navbar-height-short) - 4px);
   margin: 0;
@@ -59,11 +60,11 @@
   height: 4px;
 
   & .pass {
-    background-color: var(--green500);
+    background-color: #7762c5;
   }
 
   & .fail {
-    background-color: var(--red500);
+    background-color: #bdb2e6;
   }
 
   & .pend {

@@ -72,8 +72,8 @@
   --list-group-border: #ddd;
 
   /* Type */
-  --font-family-sans-serif: 'robotoregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-base: var(--font-family-sans-serif);
+  --font-family-sans-serif: 'Product Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-base: 'Product Sans';
   --font-family-mono: 'Menlo', 'Monaco', 'Consolas', 'Courier New', monospace;
   --font-size-base: 14px;
   --line-height-base: 1.429; /* 1.428571429 20/14 */
@@ -156,13 +156,16 @@
   }
 
   --font-light: {
-    font-family: 'robotolight';
+    font-family: 'Product Sans';
+    font-weight: lighter;
   }
   --font-regular: {
-    font-family: 'robotoregular';
+    font-family: 'Product Sans';
+    font-weight: 600;
   }
   --font-medium: {
-    font-family: 'robotomedium';
+    font-family: 'Product Sans';
+    font-weight: 800;
   }
 
   --z-depth-1: {

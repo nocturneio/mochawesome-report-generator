@@ -11,8 +11,7 @@ const MochawesomeReport = observer(props => {
     openSideNav,
     reportTitle,
     stats,
-    devMode,
-    VERSION
+    devMode
   } = props.store;
 
   return (
@@ -24,7 +23,7 @@ const MochawesomeReport = observer(props => {
           stats={ stats } />
         <ReportBody />
         <Loader />
-        <Footer version={ VERSION } />
+        <Footer />
         <NavMenu />
         { devMode && <MobxDevTool position={ { bottom: 0, right: 20 } } /> }
       </main>

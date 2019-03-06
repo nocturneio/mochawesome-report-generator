@@ -34,7 +34,6 @@ class NavMenu extends Component {
     const {
       allSuites,
       closeSideNav,
-      reportTitle,
       setShowHooks,
       showFailed,
       showHooks,
@@ -69,7 +68,7 @@ class NavMenu extends Component {
             <Icon name='close' />
           </button>
           <div className={ cx('section') }>
-            <h3 className={ cx('title') }>{ reportTitle }</h3>
+            <h3 className={ cx('title') }>NocturneLab - API</h3>
             <h6 className={ cx('date') }>
               { format(stats.end, 'dddd, MMMM D, YYYY h:mma') }
             </h6>
@@ -77,7 +76,7 @@ class NavMenu extends Component {
           <div className={ cx('section') }>
             <ToggleSwitch
               className={ cx('control') }
-              label='Show Passed'
+              label='Résultats réussi'
               labelClassName={ cx('control-label') }
               icon='check'
               iconClassName={ cx('toggle-icon-passed') }
@@ -87,7 +86,7 @@ class NavMenu extends Component {
 
             <ToggleSwitch
               className={ cx('control') }
-              label='Show Failed'
+              label='Résultats ratés'
               labelClassName={ cx('control-label') }
               icon='close'
               iconClassName={ cx('toggle-icon-failed') }
@@ -97,7 +96,7 @@ class NavMenu extends Component {
 
             <ToggleSwitch
               className={ cx('control') }
-              label='Show Pending'
+              label='Résultats en attente'
               labelClassName={ cx('control-label') }
               icon='pause'
               iconClassName={ cx('toggle-icon-pending') }
@@ -107,7 +106,7 @@ class NavMenu extends Component {
 
             <ToggleSwitch
               className={ cx('control') }
-              label='Show Skipped'
+              label='Résultats passés'
               labelClassName={ cx('control-label') }
               icon='stop'
               iconClassName={ cx('toggle-icon-skipped') }
@@ -117,7 +116,7 @@ class NavMenu extends Component {
 
             <DropdownSelector
               className={ cx('control') }
-              label='Show Hooks'
+              label='Hooks'
               labelClassName={ cx('control-label') }
               selected={ showHooksSelected }
               selections={ showHooksOpts }
