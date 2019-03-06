@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamgruber/mochawesome-report-generator"
+    "url": "https://github.com/nocturneio/mochawesome-report-generator.git"
   },
   "keywords": [
     "mochawesome",
